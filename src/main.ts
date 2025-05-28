@@ -24,6 +24,7 @@ async function bootstrap() {
     origin: [
       'http://localhost:3000', 
       'http://localhost:5000', 
+      'https://my-portifolio-ufiv.onrender.com'
     
     ],
     methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE'],
