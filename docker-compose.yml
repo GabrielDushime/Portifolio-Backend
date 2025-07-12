@@ -8,8 +8,7 @@ services:
       - "5000:5000"
     environment:
       - NODE_ENV=development
-      - DATABASE_URL=postgresql://neondb_owner:npg_Xr8HtlgIb2EM@ep-falling-rice-a8hgjpgh-pooler.eastus2.azure.neon.tech/neondb?sslmode=require
-    depends_on:
+      - DATABASE_URL=postgresql://neondb_owner:npg_ATwp2FxlfOY1@ep-falling-rice-a8hgjpgh-pooler.eastus2.azure.neon.tech/neondb?sslmode=require&channel_binding=require
       - mailer
     volumes:
       - ./src:/app/src
